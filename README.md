@@ -22,7 +22,6 @@ Aqui está o site Google Glass, desenvolvido com HTML, CSS e JavaScript para pra
 ├── 📑 multimidia.html<br>
 ├── 📑 fale-conosco.html<br>
 ├── 📑 specs.html<br>
-├── 📑 README.md<br>
 └── 📑 .DS_Store<br>
 
 ### 🚀 Como Usar
