@@ -191,6 +191,7 @@ header#cabecalho-artigo h1 {
 
 header#cabecalho-artigo h3.direita {
     color: #606060;
+
 }
 
 header#cabecalho-artigo h2 {
@@ -200,7 +201,13 @@ header#cabecalho-artigo h2 {
     margin: 0px;
 }
 
-header#cabecalho-artigo h3 {
+.info-atualizacao {
+    font-size: 12px;
+    color: #606060;
+    text-align: right;
+}
+
+.titulo-secao {
     font-size: 12px;
     color: #cecece;
 }
@@ -322,7 +329,8 @@ aside#lado h2#video-recente {
     font-size: 13pt;
     color: #ffffff;
     padding: 5px;
-    margin: 0; /* remove todas as margens */
+    margin: 0;
+    /* remove todas as margens */
 }
 
 
