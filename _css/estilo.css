@@ -1,27 +1,35 @@
 @charset "UTF-8";
-@import url('https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap');
-@font-face{
-    font-family: 'FonteLogo' ;
+@import url('href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@400;600&display=swap"');
+
+@font-face {
+    font-family: 'FonteLogo';
     src: url("../_fonts/bubblegum-sans-regular.otf");
 }
-body{
-    font-family: Arial,sans-serif;
+
+
+
+
+body {
+    font-family: Arial, sans-serif;
     background-color: #dddddd;
-    color: rgba(0, 0, 0, 1)     
+    color: rgba(0, 0, 0, 1)
 }
 
-p{ text-align: justify;
+p {
+    text-align: justify;
     text-indent: 50px;
 }
-a{
+
+a {
     color: #606060;
     text-decoration: none;
 }
 
-a:hover{
+a:hover {
     text-decoration: underline
 }
-div#interface{
+
+div#interface {
     width: 1000px;
     background-color: #ffffff;
     margin: -20px auto 10px auto;
@@ -30,7 +38,6 @@ div#interface{
     padding-right: 20px;
     padding-top: 10px;
     padding-bottom: 10px;
-
 }
 
 header#cabecalho img#icone {
@@ -39,12 +46,12 @@ header#cabecalho img#icone {
     top: 82px;
 }
 
-header#cabecalho{
+header#cabecalho {
     border-bottom: 1px #606060 solid;
     height: 150px;
-    left: 970px;
-    background: url("../_imagens/glass-logo-peq.jpg") no-repeat 0px 80px;
+    background: url(../_imagens/glass-logo-peq.jpg) no-repeat 0px 80px;
 }
+
 header#cabecalho h1 {
     font-family: 'FonteLogo', sans-serif;
     font-size: 30pt;
@@ -55,13 +62,18 @@ header#cabecalho h1 {
     margin-bottom: 0px;
 }
 
-header#cabecalho h2{
+
+
+header#cabecalho h2 {
     font-family: 'Titillium Web', sans-serif;
     color: #888888;
     font-size: 15pt;
+    font-weight: normal;
     padding: 0px;
     margin-top: 0px;
+    line-height: 23px;
 }
+
 
 /* formatação de imagens com legendas */
 
@@ -81,16 +93,16 @@ figure.foto-legenda figcaption {
     opacity: 0;
     position: absolute;
     top: 0px;
-    background-color: rgba( 0,0,0,.4);
+    background-color: rgba(0, 0, 0, .4);
     color: white;
     width: 100%;
     height: 100%;
     padding: 10px;
-    box-sizing: border-box; 
-    transition: opacity 1s ;
+    box-sizing: border-box;
+    transition: opacity 1s;
 }
 
-figure.foto-legenda:hover figcaption{
+figure.foto-legenda:hover figcaption {
     opacity: 1;
 }
 
@@ -104,30 +116,35 @@ nav#menu ul {
     left: 450px;
 }
 
-nav#menu li{
+nav#menu li {
     display: inline-block;
     background-color: #dddddd;
     padding: 10px;
-    margin: 2px;          
+    margin: 1px;
+    -webkit-transition: background-color 1s;
+    -moz-transition: background-color 1s;
+    -o-transition: background-color 1s;
+    -ms-transition: background-color 1s;
+    transition: background-color 1s;
 }
 
-nav#menu li:hover{
+nav#menu li:hover {
     transition: 1s;
     background-color: #606060;
 }
 
-nav#menu h1{
+nav#menu h1 {
     display: none;
 }
 
-nav#menu a{
+nav#menu a {
     color: #000000;
     text-decoration: none;
 }
- 
-nav#menu a:hover{
+
+nav#menu a:hover {
     color: #ffffff;
-    text-decoration: underline;     
+    text-decoration: underline;
 }
 
 /* Formatação da pagina*/
@@ -142,7 +159,12 @@ section#corpo {
     box-sizing: border-box;
 }
 
-article#noticia-principal h2{
+article {
+    display: block;
+    unicode-bidi: isolate;
+}
+
+article#noticia-principal h2 {
     font-size: 13pt;
     color: #606060;
     background-color: #dddddd;
@@ -150,7 +172,12 @@ article#noticia-principal h2{
     margin: 10px 0px 10px 0px;
 }
 
-header#cabecalho-artigo h1{
+article#noticia-principal video {
+    margin-bottom: 15px;
+    width: 100%;
+}
+
+header#cabecalho-artigo h1 {
     font-family: 'FonteLogo', sans-serif;
     font-size: 20pt;
     color: #606060;
@@ -158,54 +185,63 @@ header#cabecalho-artigo h1{
     margin-top: 0px;
 }
 
-.direita{
+.direita {
     text-align: right;
 }
 
-header#cabecalho-artigo h2{
-    font-size: 13pt;
-    color: #cecece;
-    background: #ffffff;
-    margin: 0px;
-}
-
-header#cabecalho-artigo h3{
-    font-size: 12px;
+header#cabecalho-artigo h3.direita {
     color: #606060;
 }
 
-table#tabelaspec{
+header#cabecalho-artigo h2 {
+    font-size: 13pt;
+    color: #cecece;
+    background-color: #ffffff;
+    margin: 0px;
+}
+
+header#cabecalho-artigo h3 {
+    font-size: 12px;
+    color: #cecece;
+}
+
+table#tabelaspec {
     border: 1px solid #606060;
     border-spacing: 0px;
     margin-left: auto;
     margin-right: auto;
 }
 
-table#tabelaspec td{
+table#tabelaspec td {
     border: 1px solid #606060;
     padding: 10px;
     text-align: center;
     vertical-align: middle;
 }
 
-table#tabelaspec td.ce{
+table#tabelaspec td.ce {
     color: #ffffff;
     background-color: #606060;
     vertical-align: top;
     font-weight: bold;
+    text-align: left;
+    /* Alinha à esquerda */
 }
 
-table#tabelaspec td.cd{
+table#tabelaspec td.cd {
     background-color: #cecece;
+    text-align: left;
+    /* Alinha à esquerda */
 }
 
-table#tabelaspec caption{
+
+table#tabelaspec caption {
     color: #888888;
     font-size: 13pt;
     font-weight: bolder;
 }
 
-table#tabelaspec caption span{
+table#tabelaspec caption span {
     display: block;
     float: right;
     color: #000000;
@@ -225,7 +261,7 @@ aside#lado {
     box-shadow: 2px 2px 2px rgba(0, 0, 0, .5);
 }
 
-aside#lado h1{
+aside#lado h1 {
     font-family: 'FonteLogo', sans-serif;
     font-size: 20pt;
     color: #606060;
@@ -233,24 +269,74 @@ aside#lado h1{
 
 }
 
+aside#lateral {
+    display: block;
+    width: 450px;
+    float: left;
+    background-color: #dddddd;
+    padding: 15px;
+    margin-top: 20px;
+    margin-right: 0;
+    margin-left: 20px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, .5);
+}
+
 aside#lateral video {
     width: 100%;
     margin-top: 0;
 }
 
-aside#lado h2{
+video {
+    width: 100%;
+    /* ocupa toda a largura do container */
+    height: auto;
+    /* mantém proporção do vídeo */
+    display: block;
+    /* remove espaços indesejados abaixo do vídeo */
+    max-width: 100%;
+    /* garante que não ultrapasse o container */
+}
+
+
+aside#lado {
+    display: block;
+    width: 450px;
+    float: left;
+    background-color: #dddddd;
+    padding: 15px;
+    margin-top: 20px;
+    margin-right: 0;
+    margin-left: 20px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, .5);
+}
+
+aside#lado h2 {
     background-color: #606060;
     font-size: 13pt;
     color: #ffffff;
     padding: 5px;
 }
 
-footer#rodape{
+aside#lado h2#video-recente {
+    background-color: #606060;
+    font-size: 13pt;
+    color: #ffffff;
+    padding: 5px;
+    margin: 0; /* remove todas as margens */
+}
+
+
+footer#rodape {
     clear: both;
-    border-top: 1px solid #606060;  
+    border-top: 1px solid #606060;
 }
 
-footer#rodape p{
-    text-align: center; 
+footer#rodape p {
+    text-align: center;
+    font-style: italic;
+    line-height: 30px;
 }
 
+footer#rodape p {
+    text-align: center;
+}
