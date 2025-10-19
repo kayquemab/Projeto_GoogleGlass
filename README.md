@@ -27,14 +27,11 @@ Aqui está o site Google Glass, desenvolvido com HTML, CSS e JavaScript para pra
 
 ### 🚀 Como Usar
 
-1. **Clone o repositório**  
-   Link: [https://github.com/kayquemab/Projeto_GoogleGlass.git](https://github.com/kayquemab/Projeto_GoogleGlass.git)
-
-2. **Explore a landing page**  
+1. Clone o repositório <br>
+link: (https://github.com/kayquemab/Projeto_GoogleGlass.git)
+2. Explore a landing page  
    Acesse a página inicial do projeto para visualizar todas as informações e descrições sobre o sistema.
-
-3. **Acesse o sistema online**  
-   Você pode utilizar o sistema diretamente [aqui](https://projeto-costs-two.vercel.app/).
+3. Você pode acessar o sistema [aqui](https://google-glass-blue.vercel.app/)
 
 ### 🤝 Contribuição
 
