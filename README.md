@@ -31,7 +31,7 @@ Aqui está o site Google Glass, desenvolvido com HTML, CSS e JavaScript para pra
 link: (https://github.com/kayquemab/Projeto_GoogleGlass.git)
 2. Explore a landing page  
    Acesse a página inicial do projeto para visualizar todas as informações e descrições sobre o sistema.
-3. Você pode acessar o sistema [aqui](https://google-glass-blue.vercel.app/)
+3. Você pode acessar o sistema [aqui](https://google-glass-projeto.vercel.app/)
 
 ### 🤝 Contribuição
 
