@@ -26,6 +26,9 @@ Projeto web do Google Glass feito para treinar HTML/CSS e interatividade.
 # Clone o repositório
 git clone https://github.com/kayquemab/Projeto_GoogleGlass
 
+# Entre na pasta do projeto
+GoogleGlass
+
 # Abra o arquivo index.html no navegador
 ```
 
