@@ -33,8 +33,8 @@ git clone https://github.com/kayquemab/Projeto_GoogleGlass
 
 📌 Observações
 
-Projeto feito para estudo e prática
-Desenvolvido com HTML, CSS e JavaScript puro
+* Projeto feito para estudo e prática
+* Desenvolvido com HTML, CSS e JavaScript puro
 
 ---
 
