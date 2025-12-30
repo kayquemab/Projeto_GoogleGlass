@@ -1,6 +1,6 @@
-# 📌 Google Glass - Curso em Vídeo
+📌 Google Glass — Curso em Vídeo
 
-Projeto web do Google Glass para prática de design responsivo e interatividade.
+Projeto web do Google Glass feito para treinar HTML/CSS e interatividade.
 
 ---
 
@@ -14,9 +14,9 @@ Projeto web do Google Glass para prática de design responsivo e interatividade.
 
 ## ✨ Funcionalidades
 
-* Site informativo do Google Glass
+* Páginas informativas sobre o Google Glass
 * Navegação entre seções do site
-* Estruturação de conteúdo
+* Estruturação de conteúdo em layout responsivo
 
 ---
 
@@ -26,20 +26,18 @@ Projeto web do Google Glass para prática de design responsivo e interatividade.
 # Clone o repositório
 git clone https://github.com/kayquemab/Projeto_GoogleGlass
 
-# Execute abrindo o arquivo index.html no navegador
-
+# Abra o arquivo index.html no navegador
 ```
 
 ---
 
-## 📌 Observações
+📌 Observações
 
-* Projeto desenvolvido com HTML, CSS e JavaScript puro
-* Não utiliza frameworks ou bibliotecas externas
+Projeto feito para estudo e prática
+Desenvolvido com HTML, CSS e JavaScript puro
+
 ---
 
 ## 👤 Autor
 
 Criado por **Gustavo Guanabara** | Desenvolvido por **Kayque Miqueias**
-
-
